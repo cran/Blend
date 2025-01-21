@@ -1,7 +1,7 @@
-57e71c4145485927c3955ce77991b914 *DESCRIPTION
+d0911f9522cbd7369bed8cfd8a389458 *DESCRIPTION
 7e10830f248361344a7c162548fa2570 *NAMESPACE
-244ac50da92f27c1fa1a24fea5e5ea47 *R/Blend-package.R
-7198ac23b27fb02b5d06f000933c2428 *R/Blend.R
+3d5dce486b1477c827a2e112108a3b3b *R/Blend-package.R
+7f6227568fc4a5393d938ea566395c38 *R/Blend.R
 22f5ed0ab042c5585aa8f9e7f069cc2d *R/LONBVSS.R
 331434aac5e20252a34fe3aa5a75f3be *R/LONBVSS_SI.R
 aba2f798de2e8f088d71855f9e17516f *R/RcppExports.R
@@ -12,11 +12,11 @@ d5529ce9077b652effed4ddbc005e79b *R/selection.R
 8c2e92a1177ab92fe7f8ce56c7660565 *R/selection_CI.R
 783e9ab0fb3e9cb82b365cd57b7ad3db *R/selection_nonsparse.R
 34c1192cb5e7acbb9f1b7f1bc00eb4c7 *R/selection_sparse.R
-3949cfa6bb87818e0b327fab6930d92f *README.md
+3bbad59809f71446681adbb55fefaf97 *README.md
 76161b65639451c966be75488458b3c3 *build/partial.rdb
 c058fe29681653119038501fb606c63a *data/dat.rda
-78100038bf13be66654086d12b897f2c *man/Blend-package.Rd
-3e41422dc82cc770d49d522b1ee04b2c *man/Blend.Rd
+846a794d1811c23e2a99dde2140cf6c8 *man/Blend-package.Rd
+2ecb6cf0fddbaf265a9e07ca74c96cfa *man/Blend.Rd
 eb6ab0128f4f057435a16b3e3a5dba9a *man/Coverage.Rd
 b8f34ece34cfc958a4523ee35b5954b0 *man/data.Rd
 218f5e304dc0f4136eb7b7d28002a364 *man/plot_Blend.Rd
