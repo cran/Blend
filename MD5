@@ -1,4 +1,4 @@
-d0911f9522cbd7369bed8cfd8a389458 *DESCRIPTION
+9a83f63aae316ba144ddd16c399d118c *DESCRIPTION
 7e10830f248361344a7c162548fa2570 *NAMESPACE
 3d5dce486b1477c827a2e112108a3b3b *R/Blend-package.R
 7f6227568fc4a5393d938ea566395c38 *R/Blend.R
@@ -12,7 +12,7 @@ d5529ce9077b652effed4ddbc005e79b *R/selection.R
 8c2e92a1177ab92fe7f8ce56c7660565 *R/selection_CI.R
 783e9ab0fb3e9cb82b365cd57b7ad3db *R/selection_nonsparse.R
 34c1192cb5e7acbb9f1b7f1bc00eb4c7 *R/selection_sparse.R
-3bbad59809f71446681adbb55fefaf97 *README.md
+211f54d409c5052b2b485b673b359e0b *README.md
 76161b65639451c966be75488458b3c3 *build/partial.rdb
 c058fe29681653119038501fb606c63a *data/dat.rda
 846a794d1811c23e2a99dde2140cf6c8 *man/Blend-package.Rd
