@@ -6,11 +6,10 @@
 <!-- badges: start -->
 
 [![CRAN](https://www.r-pkg.org/badges/version/Blend)](https://cran.r-project.org/package=Blend)
-[![Codecov test
-coverage](https://codecov.io/gh/kunfa/Blend/branch/master/graph/badge.svg)](https://app.codecov.io/gh/kunfa/Blend?branch=master)
 [![CRAN RStudio mirror
-downloads](https://cranlogs.r-pkg.org/badges/Blend)](https://www.r-pkg.org:443/pkg/Blend)
-[![R-CMD-check](https://github.com/kunfa/Blend/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kunfa/Blend/actions/workflows/R-CMD-check.yaml)
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/Blend)](https://www.r-pkg.org:443/pkg/Blend)
+[![CRAN RStudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/last-month/Blend)](https://www.r-pkg.org:443/pkg/Blend)
 <!-- badges: end -->
 
 Our recently developed fully robust Bayesian semiparametric mixed-effect model for high-dimensional longitudinal studies with heterogeneous observations 
@@ -62,6 +61,10 @@ and alternative models are efficiently implemented in 'C++'.
     
 ## News
 
+### Blend 0.1.2 \[2026-02-16\]
+
+- Minor updates.
+
 ### Blend 0.1.1.1 \[2025-01-29\]
 
 - Updated README file.
@@ -74,4 +77,4 @@ and alternative models are efficiently implemented in 'C++'.
 
 This package provides implementation for methods proposed in
 
-  -Fan, K., Ren, J., Ma, Shuangge and Wu, C. (2025+). robust Bayesian Regularized Semiparametric Mixed Models in Longitudinal Studies. (submitted).
+  -Fan, K., Ren, J., Ma, Shuangge and Wu, C. (2025+). Robust Bayesian variable selection and inference under misspecified nonparametric mixed models in longitudinal studies. (submitted)
