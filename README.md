@@ -38,47 +38,51 @@ and alternative models are efficiently implemented in 'C++'.
 
 ## Examples
 
-#### Example.1 (default method)
+#### Example.1 (default method: robust structural with sparsity)
 
     library(Blend)
     data(dat)
     
     fit = Blend(y,x,t,J,kn,degree) 
-    fit$coefficient 
-    Coverage(fit)
+    
+    u = as.numeric(fit$basis$u)
+    truth = list(gamma0 = function(u) 2+2*sin(2*pi*u),
+     gamma1 = function(u) 2.5*exp(2.5*u-1),
+     gamma2 = function(u) 3*u^2-2*u+2,
+     gamma3 = function(u) -4*u^3+3,
+    gamma4 = function(u) 3-2*u,
+     gamma5 = 0.8,
+    gamma6 = -1.2,
+    gamma7 = 0.7,
+     gamma8 = -1.1,
+    gamma9 = 0,
+    gamma10 = 0,
+     gamma11 = 0,
+     gamma12 = 0,
+     gamma13 = 0,
+     gamma14 = 0,
+     gamma15 = 0
+     )
+    out = Coverage(fit, truth)
+    print(out)
+    
     plot_Blend(fit,sparse=TRUE)
-#### Example.2 (alternative: robust non-structural)
+    
+#### Example.2 (alternative: robust non-structural with sparsity)
 
     fit = Blend(y,x,t,J,kn,degree,structural=FALSE) 
     
-#### Example.3 (alternative: non-robust structural)
+#### Example.3 (alternative: non-robust structural with sparsity)
 
     fit = Blend(y,x,t,J,kn,degree, robust=FALSE)
    
-#### Example.4 (alternative: non-robust non-structural)
+#### Example.4 (alternative: non-robust non-structural without sparsity)
 
-    fit = Blend(y,x,t,J,kn,degree, robust=FALSE, structural=FALSE) 
+    fit = Blend(y,x,t,J,kn,degree, robust=FALSE, structural=FALSE, sparse = FALSE) 
     
-## News
-
-### Blend 0.1.3 \[2026-09-28\]
-
-- Minor updates.
-
-### Blend 0.1.2 \[2026-02-16\]
-
-- Minor updates.
-
-### Blend 0.1.1.1 \[2025-01-29\]
-
-- Updated README file.
-
-### Blend 0.1.1 \[2025-01-21\]
-
-- Fixed minor bugs.
-
+    
 ## Methods
 
 This package provides implementation for methods proposed in
 
-  -Fan, K., Ren, J., Ma, Shuangge and Wu, C. (2026+). Robust Bayesian variable selection and inference under misspecified nonparametric mixed models in longitudinal studies. (Under Review)
+  -Fan, K., Ren, J., Ma, S. and Wu, C. (2026). Robust Bayesian Variable Selection and Inference Under Misspecified Nonparametric Mixed Models in Longitudinal Studies.[Statistics in Medicine. 45(25-27), e70830](https://doi.org/10.1002/sim.70830)
